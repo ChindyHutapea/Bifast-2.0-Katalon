@@ -7,7 +7,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>376657f3-388f-47b0-b485-aa87a3ecb25c</dataFileGUID>
-   <dataSourceUrl>C:\Chindy\Chindy\BIFAST\Revamp\Komi-API Now\Komi-API\Data Files\10.3. Credit Transfer - Failed - Balance Nasabah tidak mencukupi.xlsx</dataSourceUrl>
+   <dataSourceUrl>C:\Chindy\Chindy\BIFAST\Revamp\Automation\Komi-API BIFAST 2.0\Komi-API Now\Komi-API\Data Files\10.3. Credit Transfer - Failed - Timeout (Dari sisi komi) timeoutnya dari gateway ke connector.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

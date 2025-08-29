@@ -7,7 +7,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>558cd6c5-2e5e-4917-8945-230828b0060d</dataFileGUID>
-   <dataSourceUrl>C:\Chindy\Chindy\BIFAST\Revamp\Komi-API Now\Komi-API\Data Files\12.4. Reverse Credit Transfer - Failed - Settlement Confirmation Not Received.xlsx</dataSourceUrl>
+   <dataSourceUrl>C:\Chindy\Chindy\BIFAST\Revamp\Automation\Komi-API BIFAST 2.0\Komi-API Now\Komi-API\Data Files\12.4. Reverse Credit Transfer - Failed - Settlement Confirmation Not Received.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

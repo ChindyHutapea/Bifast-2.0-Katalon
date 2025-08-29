@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>8.3. Payment Status Request - Failed - Format Salah Karena mandatory field kosong</name>
+   <tag></tag>
+   <elementGuidId>eb8f8a78-d1c2-463e-bad5-50c988be2f61</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <autoUpdateContent>false</autoUpdateContent>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\n    \&quot;paymentStatusRequest\&quot;: {\n        \&quot;transactionId\&quot;: \&quot;${transactionId}\&quot;,\n        \&quot;transactionCode\&quot;: \&quot;${transactionCode}\&quot;,\n        \&quot;cid\&quot;: \&quot;${cid}\&quot;,\n        \&quot;channelType\&quot;: \&quot;${channelType}\&quot;,\n        \&quot;originalTransactionId\&quot;: \&quot;${originalTransactionId}\&quot;,\n        \&quot;accountNumber\&quot;: \&quot;${accountNumber}\&quot;\n    }\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>${Content_Type}</value>
+      <webElementGuid>991fec3b-bfa6-4517-ace2-60019ce9dfe8</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>Basic QWRtaW5pc3RyYXRvcjptYW5hZ2U=</value>
+      <webElementGuid>c928d75a-47cf-4620-aed9-7d128118ba91</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>10.1.1</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <path></path>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>${url}/KomiBifastOriginCT.interfaces:paymentStatus</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>74761f1e-9a81-4258-8a3a-d868d3869d60</id>
+      <masked>false</masked>
+      <name>Authorization</name>
+   </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a9002e5f-e8e7-4bb7-9cf0-767907a6569a</id>
+      <masked>false</masked>
+      <name>Content_Type</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.url</defaultValue>
+      <description></description>
+      <id>6d33c72e-255e-40e0-b615-7d1ee66f59c9</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>daa625f2-8a91-4334-ae47-b5717ea879bd</id>
+      <masked>false</masked>
+      <name>transactionId</name>
+   </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bf7bc212-da3a-4945-98b7-165b74c34a74</id>
+      <masked>false</masked>
+      <name>transactionCode</name>
+   </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5e6eefa8-71b0-454c-a3a0-a0f46f9929aa</id>
+      <masked>false</masked>
+      <name>cid</name>
+   </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6e2cdd5c-0a46-4df5-9b8f-f899764129fe</id>
+      <masked>false</masked>
+      <name>channelType</name>
+   </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1e2a2071-88c5-4a0f-a77f-fd868fcdd317</id>
+      <masked>false</masked>
+      <name>originalTransactionId</name>
+   </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f6e23b5b-6c18-4ef6-b4e9-667de0e72e6e</id>
+      <masked>false</masked>
+      <name>accountNumber</name>
+   </variables>
+   <verificationScript>import static org.assertj.core.api.Assertions.*
+
+import com.kms.katalon.core.testobject.RequestObject
+import com.kms.katalon.core.testobject.ResponseObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webservice.verification.WSResponseManager
+
+import groovy.json.JsonSlurper
+import internal.GlobalVariable as GlobalVariable
+
+RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
+
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

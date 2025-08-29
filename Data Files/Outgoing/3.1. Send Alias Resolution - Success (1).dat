@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>3.1. Send Alias Resolution - Success (1)</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>2b6a7aad-c12b-47f1-bdd4-551fe82a501b</dataFileGUID>
+   <dataSourceUrl>C:\Users\Wirra Fidiasmara\OneDrive\Desktop\BI FAST\Komi-API (2)\Komi-API\Komi-API\Data Files\3.1. Send Alias Resolution - Success.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>PROXY</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
